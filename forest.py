@@ -20,7 +20,7 @@ def init():
     return P, R
 
 # gamma = 0.5
-for gamma in [0.5]:
+for gamma in [0.5, 0.9]:
     
     policy = pd.DataFrame()
     iters = pd.DataFrame(columns = ['iters'])
